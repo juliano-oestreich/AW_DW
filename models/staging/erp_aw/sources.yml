@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: erp
+    description: fonte SAP de vendas da AW
+    schema: sap_adw
+    tables: 
+    - name: salesreason 
+      columns:
+        - name: salesreasonid
+          tests:
+            - unique
+            - not_null
+                          
+    - name: salesorderheadersalesreason
+     
