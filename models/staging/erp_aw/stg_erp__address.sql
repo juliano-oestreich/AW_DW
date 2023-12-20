@@ -26,4 +26,4 @@ with
     , address1 || ', ' || unit as address
     , city 
     from address
-    order by 2 asc
+   

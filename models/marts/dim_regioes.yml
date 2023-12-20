@@ -1,0 +1,15 @@
+version: 2 
+
+models:
+  - name: dim_regioes
+    description: dimensão regioes
+    columns:
+     - name: id_address
+     - name: id_state
+     - name: idterritory
+     - name: address
+     - name: city
+     - name: state_name
+     - name: state_code
+     - name: country_code
+     - name: country_name
