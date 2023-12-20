@@ -1,5 +1,5 @@
 with
-    forma_de_pagamentos as (
+    card as (
         select 
             cast (creditcardid as int ) as id_creditcard
             , cast( cardtype as string) as card_type
@@ -13,4 +13,4 @@ with
     )
 
     select * 
-    from forma_de_pagamentos
+    from card
