@@ -34,3 +34,9 @@ sources:
             tests:
                 - unique
                 - not_null
+
+    - name: address
+
+    - name: stateprovince
+
+    - name: countryregion
