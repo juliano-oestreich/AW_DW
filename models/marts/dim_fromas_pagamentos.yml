@@ -1,0 +1,11 @@
+
+version: 2 
+
+models:
+  - name: dim_formas_pagamentos
+    description: dimensão formas de pagamentos
+    columns:
+      - name: id_creditcard
+      - name: card_type
+      - name: card_number
+
