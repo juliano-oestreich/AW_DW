@@ -1,0 +1,12 @@
+version: 2 
+
+models:
+  - name: dim_clientes
+    description: dimensão clientes
+    columns:
+      - name: id_person
+      - name: id_customer
+      - name: person_type
+      - name: name
+      - name: idstore
+      - name: idterritory
