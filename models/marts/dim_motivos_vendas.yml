@@ -1,0 +1,12 @@
+version: 2 
+
+models:
+  - name: dim_motivos_vendas
+    description: dimensão motivos de vendas para cada compra
+    columns:
+     - name: id_salesorder                 
+     - name: id_salesorder            
+     - name: id_salesreason
+     - name: name_sales_reason
+     - name: reason_type
+
