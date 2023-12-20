@@ -36,6 +36,11 @@ sources:
                 - not_null
 
     - name: address
+      columns:
+          - name: addressid
+            tests:
+                - unique
+                - not_null
 
     - name: stateprovince
 

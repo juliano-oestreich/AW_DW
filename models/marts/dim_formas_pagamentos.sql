@@ -1,7 +1,7 @@
 with 
     forma_de_pagamentos as (
         select *
-        from {{ ref('stg_erp__forma_pagamento') }}
+        from {{ ref('stg_erp__credit_card') }}
 
     )
 
