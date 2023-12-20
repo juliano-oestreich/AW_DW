@@ -1,0 +1,15 @@
+version: 2 
+
+models:
+  - name: dim_produtos
+    description: dimensão produtos
+    columns:
+      - name: id_product
+      - name: product_name
+      - name: stock_level
+      - name: standard_cost
+      - name: list_price
+      - name: product_color
+      - name: product_size
+      - name: product_weight
+      - name: days_manufacture
