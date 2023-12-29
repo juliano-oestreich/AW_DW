@@ -63,3 +63,17 @@ sources:
             tests:
                 - unique
                 - not_null
+
+
+    - name: salesorderheader
+      columns:
+          - name: salesorderid
+            tests:
+                - unique
+                - not_null
+    - name: salesorderdetail
+      columns:
+          - name: salesorderdetailid
+            tests:
+                - unique
+                - not_null          
